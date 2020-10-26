@@ -10,7 +10,9 @@ const Navbar = ( {icon, title} ) => {
         return (
             <nav className="navbar bg-primary"> 
                 <h1>
-                    {icon} {title}
+                    {/* {icon} {title} */}
+
+                    <LanguageIcon /> {title}
                 </h1>
                 <ul>
                     {/* <li>
@@ -33,13 +35,13 @@ const Navbar = ( {icon, title} ) => {
 // set default props
 Navbar.defaultProps = {
     title: 'Where in the world?',
-    icon: <LanguageIcon />
+    // icon: <LanguageIcon />
 };
 
 // set props type
 Navbar.propTypes = {
     title: PropTypes.string.isRequired,
-    icon: PropTypes.string.isRequired
+    // icon: PropTypes.string.isRequired
 };
 
 export default Navbar
