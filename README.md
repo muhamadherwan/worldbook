@@ -45,4 +45,4 @@
 - [x] Router Setup
 - [x] Create About component.
 - [x] Add Home & About link at NavBar.
-- [x] Create user component. bila nk siap?
+- [x] Create user component.
